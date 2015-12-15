@@ -1,0 +1,78 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        meta(name='description', content='')
+        meta(name='author', content='')
+        link(href='bower_components/bootstrap/dist/css/bootstrap.min.css', rel='stylesheet')
+        link(href='css/main.css', rel='stylesheet')
+        script(src='bower_components/jquery/dist/jquery.js')
+        script(src='js/script.js')
+    body
+
+
+        nav.navbar.navbar-default.navbar-fixed-top
+          .container-fluid
+            // Brand and toggle get grouped for better mobile display
+            .navbar-header
+              button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+                span.sr-only Toggle navigation
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+              a.navbar-brand(href='#')
+                img(alt='Brand', src='img/logo.png')
+            // Collect the nav links, forms, and other content for toggling
+            #bs-example-navbar-collapse-1.collapse.navbar-collapse
+              ul.nav.navbar-nav.navbar-right
+                li
+                  a(href='#') Link
+
+        section.about
+            .container
+                .col-md-4#one
+                    p We are working hard to launch Crowdtalk as early as possible for everyone. <br><br> Sign up now and get early membership
+                    form
+                        .form-group      
+                            input#exampleInputEmail1.form-control(type='email', placeholder='Email')
+                    button.btn.btn-default(type='submit') Sign up
+
+                .col-md-5#two
+                    h2
+                      | Getting insights in a business 
+                      br
+                      |  was never so 
+                      span.txt-rotate(data-period='2000', data-rotate='[ "easy.", "affordable.", "fast.", "reliable." ]')
+
+                    p With Crowdtalk you can get answers from your customers in a new and easy way. Crowdtalk will find the people you want to ask and bring you reliable live data on your business. 
+
+      .container.wrapper
+        .row
+          .col-md-12
+            h2#firsttitle Mivel foglalkozunk?
+        .row#toprow.hello
+          .col-md-6
+            h3 Some title
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          .col-md-6.placeholder
+            img(src="img/workspace.png")
+            .anim
+            .anim2
+        .row.hello
+          .col-md-6.placeholder
+            img(src="img/umbrella.png")
+            .anim
+            .anim2
+          .col-md-6
+            h3 Some other title
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+        .row.hello
+          .col-md-6
+            h3 Some other title
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          .col-md-6.placeholder
+            img(src="img/smartwatch.png")
+            .anim
+            .anim2
